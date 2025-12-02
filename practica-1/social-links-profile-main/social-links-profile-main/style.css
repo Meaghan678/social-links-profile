@@ -11,3 +11,22 @@ body{
     align-items: center;
 }
 
+.user{
+    background-color: hsl(0, 0%, 12%);
+    font-family: "Inter", sans-serif;
+}
+
+.user img{
+    border-radius: 50%;
+}
+
+.user h2{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.user h4{
+    font-weight: 700;
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+}
