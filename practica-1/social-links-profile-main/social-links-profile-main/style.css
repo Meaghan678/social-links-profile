@@ -9,15 +9,23 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .user{
     background-color: hsl(0, 0%, 12%);
     font-family: "Inter", sans-serif;
+    border-radius: 3%;
+    text-align: center;
+    margin: 50px 50px;
+    padding: 40px 50px;
+    width: 350px;
 }
 
 .user img{
     border-radius: 50%;
+    margin: 20px 0;
+    width: 100px;
 }
 
 .user h2{
@@ -28,5 +36,38 @@ body{
 .user h4{
     font-weight: 700;
     color: hsl(75, 94%, 57%);
-    font-size: 13px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.user p{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.user ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.user ul li{
+    width: 90%;
+    margin: 8px;
+}
+
+.user ul li a{
+    display: block;
+    padding: 12px 0;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5%;
+    font-size: 12px;
+    font-weight: bold;
 }
